@@ -110,6 +110,21 @@ section {
 	-ms-border-radius: 30px;
 	-o-border-radius: 30px;
 }
+
+.section-title {
+	padding: 0 15px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.sec-padding {
+	padding: 80px 0;
+}
+.section-title h2 {
+	font-size: 40px;
+	text-transform: capitalize;
+}
+
 a {
 	text-decoration: none;
 }
