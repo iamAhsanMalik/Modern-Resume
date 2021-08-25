@@ -1,32 +1,192 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Malik Ahsan Joyia" />
-    <meta
-      name="description"
-      content="Modern Resume - Built Using HTML5, CSS3 and JavaScript"
-    />
-    <meta name="keywords" content="Simple HTML Modern Resume, Modern Resume" />
-    <title>About Me - Modern Resume</title>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Malik Ahsan Joyia" />
+		<meta
+			name="description"
+			content="Modern Resume - Built Using HTML5, CSS3 and JavaScript"
+		/>
+		<meta name="keywords" content="Simple HTML Modern Resume, Modern Resume" />
+		<title>About Me - Modern Resume</title>
 
-    <!-- CSS Styling Files -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/about.css" />
+		<!-- CSS Styling Files -->
+		<link rel="stylesheet" href="assets/css/about.css" />
+		<link rel="stylesheet" href="assets/css/loader.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
 
-    <!-- Font Awesom CSS -->
-    <link rel="stylesheet" href="assets/fonts/font-awesome/font-awesome.css" />
-  </head>
-  <body>
-    <!-- Main Div Start - Covers Whole Body -->
-    <div class="main"></div>
-    <!-- Main Div End - Covers Whole Body -->
+		<!-- Font Awesom CSS -->
+		<link rel="stylesheet" href="assets/fonts/font-awesome/font-awesome.css" />
+	</head>
+	<body>
+		<!-- Main Div Start - Covers Whole Body -->
+		<div class="main">
+			<!-- Page Loader Start -->
+			<div class="page-loader">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			<!-- Page Loader End -->
+			<!-- Header Navigation Start -->
+			<header class="header">
+				<div class="container">
+					<div class="row flex-end">
+						<button type="button" class="nav-toggler">
+							<span></span>
+						</button>
+						<nav class="nav">
+							<div class="nav-inner">
+								<ul>
+									<li><a href="home.html" class="nav-item">Home</a></li>
+									<li><a href="about.html" class="nav-item">About</a></li>
+									<li>
+										<a href="portfolio.html" class="nav-item">Portfolio</a>
+									</li>
+									<li><a href="contact.html" class="nav-item">Contact</a></li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</header>
+			<!-- Header Navigation End -->
 
-    <!-- JavaScript Files -->
-    <script src="assets/javascript/page_loader.js"></script>
-    <script src="assets/javascript/toggle_navigation.js"></script>
-    <script src="assets/javascript/about_me_tabs.js"></script>
-  </body>
+			<section class="about-section sec-padding">
+				<div class="container">
+					<div class="row">
+						<div class="section-title">
+							<h2>About Me</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="about-image">
+							<div class="image-box">
+								<img
+									src="assets/images/About_Ahsan_Joyia.png"
+									alt="Ahsan Joyia"
+								/>
+							</div>
+						</div>
+						<div class="about-text">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
+								quibusdam nesciunt architecto qui eos voluptatum libero autem
+								dolore, saepe blanditiis non corporis? Magnam velit at, fugiat
+								nam omnis saepe mollitia quidem repudiandae ducimus, voluptatum
+								deserunt, distinctio exercitationem alias ut? Cupiditate
+								perspiciatis quibusdam, consectetur fugiat eligendi temporibus
+								mollitia pariatur quidem tempore.
+							</p>
+							<h3>Skills</h3>
+							<div class="skills">
+								<div class="skill-item">HTML</div>
+								<div class="skill-item">CSS</div>
+								<div class="skill-item">Tailwind CSS</div>
+								<div class="skill-item">Material Ui</div>
+								<div class="skill-item">JavaScript</div>
+								<div class="skill-item">PHP</div>
+								<div class="skill-item">React Js</div>
+								<div class="skill-item">Redux</div>
+								<div class="skill-item">Node Js</div>
+								<div class="skill-item">Express Js</div>
+							</div>
+							<div class="about-tabs">
+								<button
+									type="button"
+									class="tab-item active"
+									data-target="#education"
+								>
+									Education
+								</button>
+								<button
+									type="button"
+									class="tab-item"
+									data-target="#experience"
+								>
+									Experience
+								</button>
+							</div>
+							<div class="tab-content active" id="education">
+								<div class="timeline">
+									<div class="timeline-item">
+										<span class="date">2013 - 2016</span>
+										<h4>
+											Master of Computer Science - <span>Arid University</span>
+										</h4>
+										<p>
+											Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+											Consequatur delectus vel similique, velit ratione aperiam.
+										</p>
+									</div>
+									<div class="timeline-item">
+										<span class="date">2013 - 2016</span>
+										<h4>
+											Master of Computer Science - <span>Arid University</span>
+										</h4>
+										<p>
+											Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+											Consequatur delectus vel similique, velit ratione aperiam.
+										</p>
+									</div>
+									<div class="timeline-item">
+										<span class="date">2013 - 2016</span>
+										<h4>
+											Master of Computer Science - <span>Arid University</span>
+										</h4>
+										<p>
+											Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+											Consequatur delectus vel similique, velit ratione aperiam.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="tab-content" id="experience">
+								<div class="timeline">
+									<div class="timeline-item">
+										<span class="date">2013 - 2018</span>
+										<h4>Software Developer - <span>BrightSols.Com</span></h4>
+										<p>
+											Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+											Consequatur delectus vel similique, velit ratione aperiam.
+										</p>
+									</div>
+									<div class="timeline-item">
+										<span class="date">2013 - 2018</span>
+										<h4>Software Developer - <span>BrightSols.Com</span></h4>
+										<p>
+											Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+											Consequatur delectus vel similique, velit ratione aperiam.
+										</p>
+									</div>
+									<div class="timeline-item">
+										<span class="date">2013 - 2018</span>
+										<h4>Software Developer - <span>BrightSols.Com</span></h4>
+										<p>
+											Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+											Consequatur delectus vel similique, velit ratione aperiam.
+										</p>
+									</div>
+								</div>
+							</div>
+							<a href="portfolio.html"
+								><button type="button" class="btn">Download CV</button></a
+							>
+							<a href="contact.html"
+								><button type="button" class="btn">Contact Me</button></a
+							>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- Main Div End - Covers Whole Body -->
+
+		<!-- JavaScript Files -->
+		<script src="assets/javascript/page_loader.js"></script>
+		<script src="assets/javascript/toggle_navigation.js"></script>
+		<script src="assets/javascript/about_me_tabs.js"></script>
+	</body>
 </html>
