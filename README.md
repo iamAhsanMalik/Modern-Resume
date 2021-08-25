@@ -10,10 +10,10 @@ HTML - CSS - JavaScript
 
 Comming Soon - NodeJS and Express JS
 
-![Home Page]()
-![About Page]()
-![Portfolio Page]()
-![Contact Page]()
+![Home Page](https://github.com/AhsanJoyia/Modern-Resume/blob/master/assets/images/Project%20Screenshots/Home%20Page.png?raw=true)
+![About Page](https://github.com/AhsanJoyia/Modern-Resume/blob/master/assets/images/Project%20Screenshots/About%20Page.png?raw=true)
+![Portfolio Page](https://github.com/AhsanJoyia/Modern-Resume/blob/master/assets/images/Project%20Screenshots/Portfolio%20Page.png?raw=true)
+![Contact Page](https://github.com/AhsanJoyia/Modern-Resume/blob/master/assets/images/Project%20Screenshots/Contact%20Page.png?raw=true)
 
 ## Installation Procedure:
 
