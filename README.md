@@ -7,7 +7,7 @@ Buitl Using HTML, CSS and JavaScript
 HTML - CSS - JavaScript - However, I have a plan to share react version of this repository in upcoming months
 
 ### Live React Version of this repository (Modern Resume) 
-https://glassmorphisam-developer-portfolio.netlify.app/
+https://glassmorphism-developer-portfolio.netlify.app/
 
 
 ## Backend
